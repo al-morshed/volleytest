@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
                                         log = 0;
                                     else log=jsonObject.getInt("log");
                                     String active = jsonObject.getString("active");
+                                    Log.i(" ","Don Get from server");
                                     mTextViewResult.append(phone + ", " + String.valueOf(log) + ", " + active + "\n\n");
                                 }
                             } catch (JSONException e) {
